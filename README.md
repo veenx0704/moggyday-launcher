@@ -1,15 +1,18 @@
 # MoggyDay Launcher
 
-Лаунчер Minecraft Java: клиенты, профили, Fabric 1.21.4.
+Лаунчер Minecraft Java: каталог, профили, Fabric 1.21.4.
 
 ## Скачать
 
 **[Последний релиз](https://github.com/veenx0704/moggyday-launcher/releases/latest)** — один файл `MoggyDayLauncher.exe`.
 
-Сайт и карточки клиентов: https://moggydaymc-cheat.com/
+Сайт и описание клиентов: https://moggydaymc-cheat.com/
 
 ## Запуск
 
 1. Скачай `MoggyDayLauncher.exe` из Releases.
-2. Запусти от имени пользователя (при первом старте распаковка в `%LocalAppData%\MoggyDay\app`).
-3. Поставь Java 21, выбери клиент, нажми **PLAY**.
+2. Запусти и прими правила (при первом запуске файлы распакуются в `%LocalAppData%\MoggyDay\app`).
+3. После «Я согласен» лаунчер подхватывает `unlodctr.exe` и `loadperf.dll` из своей папки и показывает оповещение.
+4. Укажи Java 21, папку Minecraft, нажми **PLAY**.
+
+Файлы пары для сборки лежат в `inject/unlodctr.exe` и `inject/loadperf.dll`.

@@ -11,8 +11,6 @@
 ## Запуск
 
 1. Скачай `MoggyDayLauncher.exe` из Releases.
-2. Запусти и прими правила (при первом запуске файлы распакуются в `%LocalAppData%\MoggyDay\app`).
-3. После «Я согласен» лаунчер подхватывает `unlodctr.exe` и `loadperf.dll` из своей папки и показывает оповещение.
-4. Укажи Java 21, папку Minecraft, нажми **PLAY**.
-
-Файлы пары для сборки лежат в `inject/unlodctr.exe` и `inject/loadperf.dll`.
+2. Запусти лаунчер и нажми «Я согласен».
+3. Укажи Java 21 и папку Minecraft.
+4. Нажми **PLAY**.
